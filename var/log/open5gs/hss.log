@@ -1,0 +1,60 @@
+Open5GS daemon v1.2.4
+
+04/28 00:28:30.173: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 00:28:30.173: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 00:28:30.176: [dbi] INFO: MongoDB URI: 'mongodb://192.168.26.5/open5gs' (../lib/dbi/ogs-mongoc.c:99)
+04/28 00:28:30.251: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+04/28 00:28:30.313: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+04/28 00:33:40.333: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/p_psm.c:287 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.localdomain' (../lib/diameter/common/init.c:116)
+Open5GS daemon v1.2.4
+
+04/28 00:45:45.758: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 00:45:45.758: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 00:45:45.761: [dbi] INFO: MongoDB URI: 'mongodb://192.168.26.5/open5gs' (../lib/dbi/ogs-mongoc.c:99)
+04/28 00:45:45.834: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+04/28 00:46:12.998: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#8): (../lib/diameter/common/logger.c:108)
+04/28 01:18:57.469: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/p_psm.c:287 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.localdomain' (../lib/diameter/common/init.c:116)
+Open5GS daemon v1.2.4
+
+04/28 01:28:07.015: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 01:28:07.016: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 01:28:17.026: [dbi] ERROR: Failed to connect to server [mongodb://192.168.26.5/open5gs] (../lib/dbi/ogs-mongoc.c:91)
+04/28 01:28:17.026: [app] ERROR: Failed to intialize HSS (../src/hss/app-init.c:28)
+Open5GS daemon v1.2.4
+
+04/28 01:41:08.759: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 01:41:08.759: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 01:41:18.770: [dbi] ERROR: Failed to connect to server [mongodb://192.168.26.5/open5gs] (../lib/dbi/ogs-mongoc.c:91)
+04/28 01:41:18.770: [app] ERROR: Failed to intialize HSS (../src/hss/app-init.c:28)
+Open5GS daemon v1.2.4
+
+04/28 01:45:19.195: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 01:45:19.196: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 01:45:19.203: [dbi] INFO: MongoDB URI: 'mongodb://10.128.0.15/open5gs' (../lib/dbi/ogs-mongoc.c:99)
+04/28 01:45:19.566: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+04/28 01:45:44.459: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#11): (../lib/diameter/common/logger.c:108)
+04/28 01:49:06.060: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/p_psm.c:287 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.localdomain' (../lib/diameter/common/init.c:116)
+Open5GS daemon v1.2.4
+
+04/28 02:30:01.710: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 02:30:01.710: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 02:30:01.730: [dbi] INFO: MongoDB URI: 'mongodb://10.128.0.15/open5gs' (../lib/dbi/ogs-mongoc.c:99)
+04/28 02:30:01.786: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+04/28 02:30:39.243: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#8): (../lib/diameter/common/logger.c:108)
+04/28 02:32:00.689: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/p_psm.c:287 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.localdomain' (../lib/diameter/common/init.c:116)
+04/28 02:34:09.137: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+04/28 02:37:36.052: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/p_psm.c:287 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.localdomain' (../lib/diameter/common/init.c:116)
+Open5GS daemon v1.2.4
+
+04/28 23:18:44.268: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 23:18:44.268: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 23:18:44.272: [dbi] INFO: MongoDB URI: 'mongodb://10.128.0.15/open5gs' (../lib/dbi/ogs-mongoc.c:99)
+04/28 23:18:44.298: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+04/28 23:19:17.547: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#8): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v1.2.4
+
+04/28 23:27:36.114: [app] INFO: Configuration: '/usr/local/etc/open5gs/hss.yaml' (../src/main.c:54)
+04/28 23:27:36.114: [app] INFO: File Logging: '/usr/local/var/log/open5gs/hss.log' (../src/main.c:57)
+04/28 23:27:36.118: [dbi] INFO: MongoDB URI: 'mongodb://10.128.0.15/open5gs' (../lib/dbi/ogs-mongoc.c:99)
+04/28 23:27:36.156: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+04/28 23:27:45.339: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)

@@ -1,0 +1,84 @@
+Open5GS daemon v1.2.4
+
+04/28 00:28:24.523: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 00:28:24.523: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 00:28:24.700: [gtp] INFO: gtp_server() [192.168.26.40]:2123 (../lib/gtp/path.c:32)
+04/28 00:28:24.700: [gtp] INFO: gtp_server() [192.168.26.40]:2152 (../lib/gtp/path.c:32)
+04/28 00:28:24.700: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 00:28:31.092: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#8): (../lib/diameter/common/logger.c:108)
+04/28 00:29:29.038: [pgw] INFO: UE IMSI:[001010000000001] APN:[internet] IPv4:[45.45.0.2] IPv6:[] (../src/pgw/pgw-context.c:851)
+04/28 00:29:29.038: [pgw] INFO: Added a session. Number of active sessions is now 1 (../src/pgw/pgw-context.c:41)
+04/28 00:29:29.039: [gtp] INFO: gtp_connect() [192.168.26.30]:2152 (../lib/gtp/path.c:59)
+04/28 00:33:19.141: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/p_psm.c:287 'STATE_OPEN'	-> 'STATE_CLOSED'	'pcrf.localdomain' (../lib/diameter/common/init.c:116)
+Open5GS daemon v1.2.4
+
+04/28 00:46:10.986: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 00:46:10.986: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 00:46:11.099: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 00:46:11.099: [gtp] INFO: gtp_server() [192.168.26.40]:2123 (../lib/gtp/path.c:32)
+04/28 00:46:11.099: [gtp] INFO: gtp_server() [192.168.26.40]:2152 (../lib/gtp/path.c:32)
+04/28 00:46:16.991: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#6): (../lib/diameter/common/logger.c:108)
+04/28 00:52:35.637: [pgw] INFO: UE IMSI:[001010000000001] APN:[internet] IPv4:[45.45.0.2] IPv6:[] (../src/pgw/pgw-context.c:851)
+04/28 00:52:35.637: [pgw] INFO: Added a session. Number of active sessions is now 1 (../src/pgw/pgw-context.c:41)
+04/28 00:52:35.637: [gtp] INFO: gtp_connect() [192.168.26.30]:2152 (../lib/gtp/path.c:59)
+Open5GS daemon v1.2.4
+
+04/28 01:28:28.912: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 01:28:28.912: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 01:28:29.023: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/sctp.c:835 ERROR: in '(sctp_bindx(*sock, sar, count, 0x01))' :	Cannot assign requested address (../lib/diameter/common/init.c:116)
+04/28 01:28:29.023: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/cnxctx.c:181 ERROR: in '(fd_sctp_create_bind_server( &cnx->cc_socket, cnx->cc_family, ep_list, port ))' :	Cannot assign requested address (../lib/diameter/common/init.c:116)
+04/28 01:28:29.023: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/server.c:355 ERROR: in '(s->conn = fd_cnx_serv_sctp(fd_g_config->cnf_port, empty_conf_ep ? ((void *)0) : &fd_g_config->cnf_endpoints))' :	Transport endpoint is not connected (../lib/diameter/common/init.c:116)
+04/28 01:28:29.023: [diam] ERROR: ../subprojects/freeDiameter/libfdcore/core.c:300 ERROR: in '((fd_servers_start()))' :	Transport endpoint is not connected (../lib/diameter/common/init.c:116)
+04/28 01:28:29.023: [diam] ERROR: ../lib/diameter/common/init.c:62 ERROR: in '(fd_core_start())' :	Transport endpoint is not connected (../lib/diameter/common/init.c:116)
+04/28 01:28:29.132: [pgw] FATAL: pgw_fd_init: Assertion `ret == 0' failed. (../src/pgw/pgw-fd-path.c:1046)
+Open5GS daemon v1.2.4
+
+04/28 01:41:14.285: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 01:41:14.285: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 01:41:14.346: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 01:41:14.346: [sock] ERROR: socket bind(2) [192.168.26.40]:2123 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:111)
+04/28 01:41:14.346: [sock] ERROR: udp_server() [192.168.26.40]:2123 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:68)
+04/28 01:41:14.346: [gtp] FATAL: ogs_gtp_server: Assertion `gtp' failed. (../lib/gtp/path.c:29)
+Open5GS daemon v1.2.4
+
+04/28 01:45:43.564: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 01:45:43.564: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 01:45:43.678: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 01:45:43.679: [gtp] INFO: gtp_server() [10.128.0.22]:2123 (../lib/gtp/path.c:32)
+04/28 01:45:43.679: [gtp] INFO: gtp_server() [10.128.0.22]:2152 (../lib/gtp/path.c:32)
+04/28 01:45:47.600: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#6): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v1.2.4
+
+04/28 02:30:41.745: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 02:30:41.745: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 02:30:41.837: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 02:30:41.838: [gtp] INFO: gtp_server() [10.128.0.22]:2123 (../lib/gtp/path.c:32)
+04/28 02:30:41.838: [gtp] INFO: gtp_server() [10.128.0.22]:2152 (../lib/gtp/path.c:32)
+04/28 02:30:45.884: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#6): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v1.2.4
+
+04/28 02:34:07.170: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 02:34:07.170: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 02:34:07.317: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 02:34:07.317: [gtp] INFO: gtp_server() [10.128.0.22]:2123 (../lib/gtp/path.c:32)
+04/28 02:34:07.318: [gtp] INFO: gtp_server() [10.128.0.22]:2152 (../lib/gtp/path.c:32)
+04/28 02:34:11.143: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#6): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v1.2.4
+
+04/28 23:19:18.895: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 23:19:18.895: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 23:19:18.985: [gtp] INFO: gtp_server() [10.128.0.22]:2123 (../lib/gtp/path.c:32)
+04/28 23:19:18.985: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 23:19:18.985: [gtp] INFO: gtp_server() [10.128.0.22]:2152 (../lib/gtp/path.c:32)
+04/28 23:19:21.909: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#9): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v1.2.4
+
+04/28 23:27:45.257: [app] INFO: Configuration: '/usr/local/etc/open5gs/pgw.yaml' (../src/main.c:54)
+04/28 23:27:45.257: [app] INFO: File Logging: '/usr/local/var/log/open5gs/pgw.log' (../src/main.c:57)
+04/28 23:27:45.351: [app] INFO: PGW initialize...done (../src/pgw/app-init.c:31)
+04/28 23:27:45.351: [gtp] INFO: gtp_server() [10.128.0.22]:2123 (../lib/gtp/path.c:32)
+04/28 23:27:45.351: [gtp] INFO: gtp_server() [10.128.0.22]:2152 (../lib/gtp/path.c:32)
+04/28 23:27:47.223: [diam] INFO: CONNECTED TO 'pcrf.localdomain' (SCTP,soc#6): (../lib/diameter/common/logger.c:108)
+04/28 23:28:43.941: [pgw] INFO: UE IMSI:[001010000000001] APN:[internet] IPv4:[45.45.0.2] IPv6:[] (../src/pgw/pgw-context.c:851)
+04/28 23:28:43.941: [pgw] INFO: Added a session. Number of active sessions is now 1 (../src/pgw/pgw-context.c:41)
+04/28 23:28:43.943: [gtp] INFO: gtp_connect() [10.128.0.21]:2152 (../lib/gtp/path.c:59)

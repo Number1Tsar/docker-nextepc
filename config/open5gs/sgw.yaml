@@ -10,6 +10,6 @@ parameter:
 
 sgw:
     gtpc:
-      addr: 192.168.26.30
+      addr: 10.128.0.21
     gtpu:
-      addr: 192.168.26.30
+      addr: 10.128.0.21

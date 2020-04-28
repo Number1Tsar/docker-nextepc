@@ -13,9 +13,9 @@ parameter:
 mme:
   freeDiameter: /usr/local/etc/freeDiameter/mme.conf
   s1ap:
-    addr: 192.168.26.20
+    addr: 10.128.0.20
   gtpc:
-    addr: 192.168.26.20
+    addr: 10.128.0.20
   gummei: 
     plmn_id:
       mcc: 001
@@ -35,10 +35,10 @@ mme:
 
 sgw:
   gtpc:
-    addr: 192.168.26.30
+    addr: 10.128.0.21
 
 pgw:
   gtpc:
-    addr: 192.168.26.40
+    addr: 10.128.0.22
 #        #- ::1
 

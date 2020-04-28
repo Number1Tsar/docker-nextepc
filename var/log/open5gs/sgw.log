@@ -1,0 +1,74 @@
+Open5GS daemon v1.2.4
+
+04/28 00:28:30.970: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 00:28:30.970: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 00:28:30.982: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 00:28:30.987: [gtp] INFO: gtp_server() [192.168.26.30]:2123 (../lib/gtp/path.c:32)
+04/28 00:28:30.989: [gtp] INFO: gtp_server() [192.168.26.30]:2152 (../lib/gtp/path.c:32)
+04/28 00:29:29.036: [gtp] INFO: gtp_connect() [192.168.26.40]:2123 (../lib/gtp/path.c:59)
+04/28 00:29:29.047: [gtp] INFO: gtp_connect() [192.168.26.40]:2152 (../lib/gtp/path.c:59)
+04/28 00:29:29.278: [gtp] INFO: gtp_connect() [192.168.26.60]:2152 (../lib/gtp/path.c:59)
+Open5GS daemon v1.2.4
+
+04/28 00:46:09.779: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 00:46:09.779: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 00:46:09.788: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 00:46:09.791: [gtp] INFO: gtp_server() [192.168.26.30]:2123 (../lib/gtp/path.c:32)
+04/28 00:46:09.792: [gtp] INFO: gtp_server() [192.168.26.30]:2152 (../lib/gtp/path.c:32)
+04/28 00:52:35.636: [gtp] INFO: gtp_connect() [192.168.26.40]:2123 (../lib/gtp/path.c:59)
+04/28 00:52:35.645: [gtp] INFO: gtp_connect() [192.168.26.40]:2152 (../lib/gtp/path.c:59)
+04/28 00:52:35.878: [gtp] INFO: gtp_connect() [192.168.26.60]:2152 (../lib/gtp/path.c:59)
+Open5GS daemon v1.2.4
+
+04/28 01:28:29.751: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 01:28:29.751: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 01:28:29.755: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 01:28:29.758: [sock] ERROR: socket bind(2) [192.168.26.30]:2123 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:111)
+04/28 01:28:29.758: [sock] ERROR: udp_server() [192.168.26.30]:2123 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:68)
+04/28 01:28:29.758: [gtp] FATAL: ogs_gtp_server: Assertion `gtp' failed. (../lib/gtp/path.c:29)
+Open5GS daemon v1.2.4
+
+04/28 01:41:17.978: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 01:41:17.978: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 01:41:17.988: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 01:41:17.991: [sock] ERROR: socket bind(2) [192.168.26.30]:2123 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:111)
+04/28 01:41:17.991: [sock] ERROR: udp_server() [192.168.26.30]:2123 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:68)
+04/28 01:41:17.991: [gtp] FATAL: ogs_gtp_server: Assertion `gtp' failed. (../lib/gtp/path.c:29)
+Open5GS daemon v1.2.4
+
+04/28 01:45:45.303: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 01:45:45.303: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 01:45:45.320: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 01:45:45.329: [gtp] INFO: gtp_server() [10.128.0.21]:2123 (../lib/gtp/path.c:32)
+04/28 01:45:45.329: [gtp] INFO: gtp_server() [10.128.0.21]:2152 (../lib/gtp/path.c:32)
+Open5GS daemon v1.2.4
+
+04/28 02:30:42.672: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 02:30:42.673: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 02:30:42.678: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 02:30:42.680: [gtp] INFO: gtp_server() [10.128.0.21]:2123 (../lib/gtp/path.c:32)
+04/28 02:30:42.680: [gtp] INFO: gtp_server() [10.128.0.21]:2152 (../lib/gtp/path.c:32)
+Open5GS daemon v1.2.4
+
+04/28 02:34:07.926: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 02:34:07.926: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 02:34:07.932: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 02:34:07.935: [gtp] INFO: gtp_server() [10.128.0.21]:2123 (../lib/gtp/path.c:32)
+04/28 02:34:07.935: [gtp] INFO: gtp_server() [10.128.0.21]:2152 (../lib/gtp/path.c:32)
+Open5GS daemon v1.2.4
+
+04/28 23:19:15.449: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 23:19:15.449: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 23:19:15.459: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 23:19:15.466: [gtp] INFO: gtp_server() [10.128.0.21]:2123 (../lib/gtp/path.c:32)
+04/28 23:19:15.466: [gtp] INFO: gtp_server() [10.128.0.21]:2152 (../lib/gtp/path.c:32)
+Open5GS daemon v1.2.4
+
+04/28 23:27:43.993: [app] INFO: Configuration: '/usr/local/etc/open5gs/sgw.yaml' (../src/main.c:54)
+04/28 23:27:43.993: [app] INFO: File Logging: '/usr/local/var/log/open5gs/sgw.log' (../src/main.c:57)
+04/28 23:27:44.002: [app] INFO: SGW initialize...done (../src/sgw/app-init.c:31)
+04/28 23:27:44.005: [gtp] INFO: gtp_server() [10.128.0.21]:2123 (../lib/gtp/path.c:32)
+04/28 23:27:44.005: [gtp] INFO: gtp_server() [10.128.0.21]:2152 (../lib/gtp/path.c:32)
+04/28 23:28:43.940: [gtp] INFO: gtp_connect() [10.128.0.22]:2123 (../lib/gtp/path.c:59)
+04/28 23:28:43.957: [gtp] INFO: gtp_connect() [10.128.0.22]:2152 (../lib/gtp/path.c:59)
+04/28 23:28:44.199: [gtp] INFO: gtp_connect() [10.128.0.24]:2152 (../lib/gtp/path.c:59)

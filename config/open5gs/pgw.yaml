@@ -15,10 +15,10 @@ pgw:
   freeDiameter: /usr/local/etc/freeDiameter/pgw.conf
   gtpc:
     addr:
-      - 192.168.26.40
+      - 10.128.0.22
       #- ::1
   gtpu:
-    - addr: 192.168.26.40
+    - addr: 10.128.0.22
     #- addr: ::1
   ue_pool:
     - addr: 45.45.0.1/16
